@@ -2,683 +2,11 @@
   "module_base": 140700563865600,
   "module_size": 140288000,
   "patterns": {
-    "call_binTM": {
-      "name": "call_binTM",
-      "pattern": "",
-      "offset": 62501824,
-      "address": 140700626367424
-    },
-    "WriteStream": {
-      "name": "WriteStream",
-      "pattern": "",
-      "offset": 15712217,
-      "address": 140700579577817
-    },
-    "VariantCastInt": {
-      "name": "VariantCastInt",
-      "pattern": "",
-      "offset": 27946416,
-      "address": 140700591812016
-    },
-    "LuaD_throw": {
-      "name": "LuaD_throw",
-      "pattern": "9C D8 58 00 48 83 C4 38 C3 CC CC CC CC CC CC CC",
-      "offset": 62197120,
-      "address": 140700626062720
-    },
-    "CacheNode": {
-      "name": "CacheNode",
-      "pattern": "",
-      "offset": 67065040,
-      "address": 140700630930640
-    },
-    "LuaL_checkany": {
-      "name": "LuaL_checkany",
-      "pattern": "F3 0F 58 D5 F3 0F 59 F3 F3 0F 58 D6 44 0F 2F CA",
-      "offset": 62353856,
-      "address": 140700626219456
-    },
-    "GetEventEngine": {
-      "name": "GetEventEngine",
-      "pattern": "48 8D 4B 40 E8 ?? 74 ?? ?? 48 8D 4B 28 E8 ?? 73",
-      "offset": 7558784,
-      "address": 140700571424384
-    },
-    "FakeDataModelPointer": {
-      "name": "FakeDataModelPointer",
-      "pattern": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
-      "offset": 126493896,
-      "address": 140700690359496
-    },
-    "RawTaskScheduler": {
-      "name": "RawTaskScheduler",
-      "pattern": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
-      "offset": 127801448,
-      "address": 140700691667048
-    },
-    "Lua_pushfstringL": {
-      "name": "Lua_pushfstringL",
-      "pattern": "",
-      "offset": 62139328,
-      "address": 140700626004928
-    },
-    "SetEventEngine": {
-      "name": "SetEventEngine",
-      "pattern": "00 00 00 4C 89 64 24 70 ?? C7 06 00 00 00 00 48",
-      "offset": 7558080,
-      "address": 140700571423680
-    },
-    "Std_setError": {
-      "name": "Std_setError",
-      "pattern": "",
-      "offset": 81705948,
-      "address": 140700645571548
-    },
-    "GetCapabilites": {
-      "name": "GetCapabilites",
-      "pattern": "",
-      "offset": 65460208,
-      "address": 140700629325808
-    },
-    "GetCurrentThreadContext": {
-      "name": "GetCurrentThreadContext",
-      "pattern": "",
-      "offset": 13709088,
-      "address": 140700577574688
-    },
-    "F_luaopen": {
-      "name": "F_luaopen",
-      "pattern": "",
-      "offset": 62188192,
-      "address": 140700626053792
-    },
-    "SetFFlag": {
-      "name": "SetFFlag",
-      "pattern": "",
-      "offset": 71216848,
-      "address": 140700635082448
-    },
-    "SetProtoCapabilities": {
-      "name": "SetProtoCapabilities",
-      "pattern": "C8 F2 0F 10 45 A0 F2 0F 11 4D 98 F2 0F 10 4D B8",
-      "offset": 57808320,
-      "address": 140700621673920
-    },
-    "PushInstance": {
-      "name": "PushInstance",
-      "pattern": "",
-      "offset": 21213056,
-      "address": 140700585078656
-    },
-    "Lua_argerrorL": {
-      "name": "Lua_argerrorL",
-      "pattern": "",
-      "offset": 62142576,
-      "address": 140700626008176
-    },
-    "LuaM_freearray": {
-      "name": "LuaM_freearray",
-      "pattern": "",
-      "offset": 62486112,
-      "address": 140700626351712
-    },
-    "Lua_pushvfstring": {
-      "name": "Lua_pushvfstring",
-      "pattern": "",
-      "offset": 62139216,
-      "address": 140700626004816
-    },
-    "Lua_clock": {
-      "name": "Lua_clock",
-      "pattern": "",
-      "offset": 61890416,
-      "address": 140700625756016
-    },
-    "LuaV_settable": {
-      "name": "LuaV_settable",
-      "pattern": "",
-      "offset": 62495200,
-      "address": 140700626360800
-    },
-    "LuaC_step": {
-      "name": "LuaC_step",
-      "pattern": "",
-      "offset": 62182336,
-      "address": 140700626047936
-    },
-    "LuaG_aritherror": {
-      "name": "LuaG_aritherror",
-      "pattern": "",
-      "offset": 62184736,
-      "address": 140700626050336
-    },
-    "atomic": {
-      "name": "atomic",
-      "pattern": "0F 46 C1 48 8B 38 48 8D 0C 7F ?? C1 E1 02 E8 ??",
-      "offset": 62337776,
-      "address": 140700626203376
-    },
-    "LuaF_freeproto": {
-      "name": "LuaF_freeproto",
-      "pattern": "",
-      "offset": 62548560,
-      "address": 140700626414160
-    },
-    "GetGlobalState": {
-      "name": "GetGlobalState",
-      "pattern": "",
-      "offset": 15810192,
-      "address": 140700579675792
-    },
-    "FireRightMouseClick": {
-      "name": "FireRightMouseClick",
-      "pattern": "",
-      "offset": 35128016,
-      "address": 140700598993616
-    },
-    "FireClickDetector": {
-      "name": "FireClickDetector",
-      "pattern": "",
-      "offset": 35128016,
-      "address": 140700598993616
-    },
-    "Lua_newstate": {
-      "name": "Lua_newstate",
-      "pattern": "D1 74 ?? 4C 8B 49 08 49 89 11 4C 8B 42 08 4D 89",
-      "offset": 62193248,
-      "address": 140700626058848
-    },
-    "Node": {
-      "name": "Node",
-      "pattern": "2C 64 70 ?? 6F 77 ?? 3A 68 30 2E 34 2C 64 70 ??",
-      "offset": 96683320,
-      "address": 140700660548920
-    },
-    "SetInstanceObject": {
-      "name": "SetInstanceObject",
-      "pattern": "0F 59 D0 F3 44 0F 5C D1 F3 0F 58 F7 F3 44 0F 11",
-      "offset": 36076496,
-      "address": 140700599942096
-    },
-    "LuaD_growstack": {
-      "name": "LuaD_growstack",
-      "pattern": "",
-      "offset": 62135520,
-      "address": 140700626001120
-    },
-    "GetProperty": {
-      "name": "GetProperty",
-      "pattern": "",
-      "offset": 15872368,
-      "address": 140700579737968
-    },
-    "GetValues": {
-      "name": "GetValues",
-      "pattern": "48 83 C4 40 5B C3 E8 ?? 42 ?? ?? CC 4C 8D 05 ??",
-      "offset": 17503008,
-      "address": 140700581368608
-    },
-    "LuaG_concaterror": {
-      "name": "LuaG_concaterror",
-      "pattern": "",
-      "offset": 62184656,
-      "address": 140700626050256
-    },
-    "VariantCastFloat": {
-      "name": "VariantCastFloat",
-      "pattern": "10 48 39 47 08 48 8B D5 48 8B CE 4C 0F 44 C0 49",
-      "offset": 27948528,
-      "address": 140700591814128
-    },
-    "KeyID": {
-      "name": "KeyID",
-      "pattern": "F3 41 0F 10 C5 0F C6 C0 C6 F3 41 0F 10 C6 0F C6",
-      "offset": 71416400,
-      "address": 140700635282000
-    },
-    "Lua_xmove": {
-      "name": "Lua_xmove",
-      "pattern": "",
-      "offset": 62137136,
-      "address": 140700626002736
-    },
-    "LuaV_Execute": {
-      "name": "LuaV_Execute",
-      "pattern": "5E C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC",
-      "offset": 62227296,
-      "address": 140700626092896
-    },
-    "BrowserTracker": {
-      "name": "BrowserTracker",
-      "pattern": "",
-      "offset": 8158688,
-      "address": 140700572024288
-    },
-    "FireTouchInterest": {
-      "name": "FireTouchInterest",
-      "pattern": "44 24 20 48 3B 15 D6 25 6C 05 74 ?? E8 ?? BA ??",
-      "offset": 38660400,
-      "address": 140700602526000
-    },
-    "Auxopen": {
-      "name": "Auxopen",
-      "pattern": "",
-      "offset": 62137136,
-      "address": 140700626002736
-    },
-    "LuaG_errorL": {
-      "name": "LuaG_errorL",
-      "pattern": "",
-      "offset": 62145408,
-      "address": 140700626011008
-    },
-    "GetCurrentContext": {
-      "name": "GetCurrentContext",
-      "pattern": "",
-      "offset": 66327744,
-      "address": 140700630193344
-    },
-    "InsertNode": {
-      "name": "InsertNode",
-      "pattern": "C9 41 0F BA E0 0C 73 ?? 0F B6 42 25 0F B7 89 80",
-      "offset": 62678656,
-      "address": 140700626544256
-    },
-    "CryptoUILogStamp": {
-      "name": "CryptoUILogStamp",
-      "pattern": "",
-      "offset": 80030192,
-      "address": 140700643895792
-    },
-    "ArgsElement": {
-      "name": "ArgsElement",
-      "pattern": "0F 0F ?? 69 FF FF FF 4C 8B 54 24 28 4C 8B 5C 24",
-      "offset": 68436768,
-      "address": 140700632302368
-    },
-    "GetCurrentFileAsAnsi": {
-      "name": "GetCurrentFileAsAnsi",
-      "pattern": "",
-      "offset": 82080200,
-      "address": 140700645945800
-    },
-    "LuaL_freebuffer": {
-      "name": "LuaL_freebuffer",
-      "pattern": "41 8B EE 8D 34 55 FF FF FF FF 48 39 B8 88 13 00",
-      "offset": 62408736,
-      "address": 140700626274336
-    },
-    "DatabaseEntry": {
-      "name": "DatabaseEntry",
-      "pattern": "",
-      "offset": 68283264,
-      "address": 140700632148864
-    },
-    "LuaG_ordererror": {
-      "name": "LuaG_ordererror",
-      "pattern": "",
-      "offset": 62184896,
-      "address": 140700626050496
-    },
-    "ScriptContextResume": {
-      "name": "ScriptContextResume",
-      "pattern": "",
-      "offset": 20892384,
-      "address": 140700584757984
-    },
-    "HandlerRoutine": {
-      "name": "HandlerRoutine",
-      "pattern": "",
-      "offset": 81996336,
-      "address": 140700645861936
-    },
-    "Pseudo2addr": {
-      "name": "Pseudo2addr",
-      "pattern": "",
-      "offset": 62135008,
-      "address": 140700626000608
-    },
-    "OpCodeLookUpTable": {
-      "name": "OpCodeLookUpTable",
-      "pattern": "2C 64 70 ?? 65 66 74 ?? 68 30 2E 38 2C 64 70 ??",
-      "offset": 96678160,
-      "address": 140700660543760
-    },
-    "GetFFlag": {
-      "name": "GetFFlag",
-      "pattern": "",
-      "offset": 81839920,
-      "address": 140700645705520
-    },
-    "LuaO_chunkid": {
-      "name": "LuaO_chunkid",
-      "pattern": "",
-      "offset": 62574048,
-      "address": 140700626439648
-    },
-    "KTable": {
-      "name": "KTable",
-      "pattern": "55 4D DC EE FF 00 00 00 0B D8 DB EE FF 00 00 00",
-      "offset": 117858176,
-      "address": 140700681723776
-    },
-    "LuaL_newmetatable": {
-      "name": "LuaL_newmetatable",
-      "pattern": "",
-      "offset": 62150192,
-      "address": 140700626015792
-    },
-    "Print": {
-      "name": "Print",
-      "pattern": "38 49 8B D7 48 8D 4D 00 E8 ?? BC ?? ?? 48 8D 0D",
-      "offset": 28183168,
-      "address": 140700592048768
-    },
-    "LuaV_gettable": {
-      "name": "LuaV_gettable",
-      "pattern": "",
-      "offset": 62493632,
-      "address": 140700626359232
-    },
-    "SetMemoryInfo": {
-      "name": "SetMemoryInfo",
-      "pattern": "",
-      "offset": 6899776,
-      "address": 140700570765376
-    },
-    "Impersonator": {
-      "name": "Impersonator",
-      "pattern": "",
-      "offset": 65460384,
-      "address": 140700629325984
-    },
-    "GetCurrentThreadID": {
-      "name": "GetCurrentThreadID",
-      "pattern": "89 4C 24 30 48 8B 8C 24 98 00 00 00 48 89 4C 24",
-      "offset": 70425616,
-      "address": 140700634291216
-    },
-    "LuaL_register": {
-      "name": "LuaL_register",
-      "pattern": "",
-      "offset": 62486528,
-      "address": 140700626352128
-    },
-    "LuaL_pushresult": {
-      "name": "LuaL_pushresult",
-      "pattern": "ED BE 01 00 00 00 48 89 44 24 38 89 74 ?? 24 8B",
-      "offset": 62166576,
-      "address": 140700626032176
-    },
-    "FormatEngineText": {
-      "name": "FormatEngineText",
-      "pattern": "C7 81 78 ?? 00 00 FF FF FF 7F ?? 81 7C ?? 00 00",
-      "offset": 42252800,
-      "address": 140700606118400
-    },
-    "LuaH_Dummynode": {
-      "name": "LuaH_Dummynode",
-      "pattern": "65 66 74 ?? 68 30 2E 38 2C 64 70 ?? ?? 67 68 74",
-      "offset": 96683336,
-      "address": 140700660548936
-    },
-    "IdentityPtr": {
-      "name": "IdentityPtr",
-      "pattern": "",
-      "offset": 21213056,
-      "address": 140700585078656
-    },
-    "TaskCancel": {
-      "name": "TaskCancel",
-      "pattern": "06 41 81 F9 00 04 00 00 72 ?? 80 3D 8C 7E ?? 05",
-      "offset": 23278368,
-      "address": 140700587143968
-    },
-    "TaskDesync": {
-      "name": "TaskDesync",
-      "pattern": "",
-      "offset": 23270064,
-      "address": 140700587135664
-    },
-    "Register": {
-      "name": "Register",
-      "pattern": "44 24 50 0F 10 44 24 50 48 89 44 24 38 48 8D 4C",
-      "offset": 40014624,
-      "address": 140700603880224
-    },
-    "LuaG_runerrorL": {
-      "name": "LuaG_runerrorL",
-      "pattern": "",
-      "offset": 62186560,
-      "address": 140700626052160
-    },
-    "LockViolationInstanceCrash": {
-      "name": "LockViolationInstanceCrash",
-      "pattern": "02 42 05 07 38 9A 44 64 38 51 15 44 80 38 D6 4A",
-      "offset": 108236344,
-      "address": 140700672101944
-    },
-    "LuaC_fullgc": {
-      "name": "LuaC_fullgc",
-      "pattern": "C9 F3 0F 59 C0 F3 0F 58 F8 F3 42 0F 10 44 11 08",
-      "offset": 62339744,
-      "address": 140700626205344
-    },
-    "ProcessEvent": {
-      "name": "ProcessEvent",
-      "pattern": "48 03 DA 48 3B D3 0F ?? F5 00 00 00 4C 8B DF 90",
-      "offset": 62679392,
-      "address": 140700626544992
-    },
-    "GetIdentityStruct": {
-      "name": "GetIdentityStruct",
-      "pattern": "",
-      "offset": 210736,
-      "address": 140700564076336
-    },
-    "GetContextObject": {
-      "name": "GetContextObject",
-      "pattern": "",
-      "offset": 20923008,
-      "address": 140700584788608
-    },
-    "Lua_setmetatable": {
-      "name": "Lua_setmetatable",
-      "pattern": "28 DA F3 0F 59 D8 45 0F 28 C1 41 0F 28 E1 0F 28",
-      "offset": 62273305,
-      "address": 140700626138905
-    },
-    "FireProximityPrompt": {
-      "name": "FireProximityPrompt",
-      "pattern": "",
-      "offset": 35519456,
-      "address": 140700599385056
-    },
-    "TaskDelay": {
-      "name": "TaskDelay",
-      "pattern": "57 C0 F3 0F 7F ?? 24 30 48 8B D6 49 8B 0E E8 ??",
-      "offset": 23276704,
-      "address": 140700587142304
-    },
-    "LuaF_newproto": {
-      "name": "LuaF_newproto",
-      "pattern": "",
-      "offset": 62547328,
-      "address": 140700626412928
-    },
-    "LuaT_objtypenamestr": {
-      "name": "LuaT_objtypenamestr",
-      "pattern": "",
-      "offset": 62546896,
-      "address": 140700626412496
-    },
-    "RequestCode": {
-      "name": "RequestCode",
-      "pattern": "",
-      "offset": 14548224,
-      "address": 140700578413824
-    },
     "TaskDefer": {
       "name": "TaskDefer",
       "pattern": "46 4B 06 41 81 F9 00 04 00 00 72 ?? 80 3D 9A 8D",
       "offset": 23274512,
       "address": 140700587140112
-    },
-    "ValidateBytecode": {
-      "name": "ValidateBytecode",
-      "pattern": "8D 54 24 30 48 8B CD E8 ?? 08 ?? ?? 0F 10 00 0F",
-      "offset": 18342736,
-      "address": 140700582208336
-    },
-    "LuaG_breakpoint": {
-      "name": "LuaG_breakpoint",
-      "pattern": "",
-      "offset": 62548112,
-      "address": 140700626413712
-    },
-    "GetModuleFromVMStateMap": {
-      "name": "GetModuleFromVMStateMap",
-      "pattern": "09 48 8B 51 08 48 89 41 08 48 8B 71 ?? 4C 89 41",
-      "offset": 20930898,
-      "address": 140700584796498
-    },
-    "LuaG_indexerror": {
-      "name": "LuaG_indexerror",
-      "pattern": "",
-      "offset": 62185024,
-      "address": 140700626050624
-    },
-    "LuaD_precall": {
-      "name": "LuaD_precall",
-      "pattern": "90 48 83 C4 48 C3 E8 ?? 48 ?? ?? CC CC CC CC CC",
-      "offset": 62197072,
-      "address": 140700626062672
-    },
-    "Lua_rawcheckstack": {
-      "name": "Lua_rawcheckstack",
-      "pattern": "",
-      "offset": 62136320,
-      "address": 140700626001920
-    },
-    "LuaL_checktype": {
-      "name": "LuaL_checktype",
-      "pattern": "",
-      "offset": 62142944,
-      "address": 140700626008544
-    },
-    "FireMouseHoverLeave": {
-      "name": "FireMouseHoverLeave",
-      "pattern": "",
-      "offset": 35133968,
-      "address": 140700598999568
-    },
-    "freeblock": {
-      "name": "freeblock",
-      "pattern": "",
-      "offset": 62485936,
-      "address": 140700626351536
-    },
-    "GetEngineLoadStatus": {
-      "name": "GetEngineLoadStatus",
-      "pattern": "60 48 83 C3 B0 48 8D 05 ?? ?? ?? ?? 48 89 47 40",
-      "offset": 7561008,
-      "address": 140700571426608
-    },
-    "LuaVM_Load": {
-      "name": "LuaVM_Load",
-      "pattern": "",
-      "offset": 19176608,
-      "address": 140700583042208
-    },
-    "LuaL_checklstring": {
-      "name": "LuaL_checklstring",
-      "pattern": "",
-      "offset": 62150192,
-      "address": 140700626015792
-    },
-    "SetChannelState": {
-      "name": "SetChannelState",
-      "pattern": "89 23 C7 46 20 02 00 00 00 C7 86 24 40 00 00 04",
-      "offset": 64085296,
-      "address": 140700627950896
-    },
-    "Luau_Execute": {
-      "name": "Luau_Execute",
-      "pattern": "89 7C ?? 20 41 56 48 83 EC 50 48 8B 05 ?? ?? ??",
-      "offset": 62227120,
-      "address": 140700626092720
-    },
-    "LuaL_getmetafield": {
-      "name": "LuaL_getmetafield",
-      "pattern": "",
-      "offset": 62151376,
-      "address": 140700626016976
-    },
-    "LuaO_NilObject": {
-      "name": "LuaO_NilObject",
-      "pattern": "67 F7 7F ?? 00 90 E2 68 67 F7 7F ?? 00 B0 E2 68",
-      "offset": 86481427,
-      "address": 140700650347027
-    },
-    "MallocMemory": {
-      "name": "MallocMemory",
-      "pattern": "",
-      "offset": 71059152,
-      "address": 140700634924752
-    },
-    "VariantCastInt64": {
-      "name": "VariantCastInt64",
-      "pattern": "D0 00 00 00 E8 ?? 18 ?? ?? 84 C0 75 ?? 48 8B D3",
-      "offset": 27947184,
-      "address": 140700591812784
-    },
-    "ThreadGuardSephamore": {
-      "name": "ThreadGuardSephamore",
-      "pattern": "",
-      "offset": 58519616,
-      "address": 140700622385216
-    },
-    "SetDebugOutput": {
-      "name": "SetDebugOutput",
-      "pattern": "",
-      "offset": 67196416,
-      "address": 140700631062016
-    },
-    "GetLuaState": {
-      "name": "GetLuaState",
-      "pattern": "8B 4D EF EB ?? 48 8D 4D F7 E8 ?? B6 ?? ?? 48 8B",
-      "offset": 17420224,
-      "address": 140700581285824
-    },
-    "LuaM_freegco": {
-      "name": "LuaM_freegco",
-      "pattern": "",
-      "offset": 62486240,
-      "address": 140700626351840
-    },
-    "FireMouseHoverEnter": {
-      "name": "FireMouseHoverEnter",
-      "pattern": "",
-      "offset": 35133552,
-      "address": 140700598999152
-    },
-    "PhantomIndex": {
-      "name": "PhantomIndex",
-      "pattern": "",
-      "offset": 22032640,
-      "address": 140700585898240
-    },
-    "LuaA_toobject": {
-      "name": "LuaA_toobject",
-      "pattern": "",
-      "offset": 62135200,
-      "address": 140700626000800
-    },
-    "SetStringEngine": {
-      "name": "SetStringEngine",
-      "pattern": "CC FB FF FF F6 C3 01 74 ?? 48 8B CF E8 ?? C0 ??",
-      "offset": 7560320,
-      "address": 140700571425920
     },
     "SetSingletonObject": {
       "name": "SetSingletonObject",
@@ -692,11 +20,17 @@
       "offset": 64081616,
       "address": 140700627947216
     },
-    "AssignedNode": {
-      "name": "AssignedNode",
-      "pattern": "89 6C 2B 28 4C 89 6C 2B 10 48 83 7C ?? 18 00 76",
-      "offset": 24351586,
-      "address": 140700588217186
+    "Node": {
+      "name": "Node",
+      "pattern": "2C 64 70 ?? 6F 77 ?? 3A 68 30 2E 34 2C 64 70 ??",
+      "offset": 96683320,
+      "address": 140700660548920
+    },
+    "GetEventEngine": {
+      "name": "GetEventEngine",
+      "pattern": "48 8D 4B 40 E8 ?? 74 ?? ?? 48 8D 4B 28 E8 ?? 73",
+      "offset": 7558784,
+      "address": 140700571424384
     },
     "LuaD_rawrunprotected": {
       "name": "LuaD_rawrunprotected",
@@ -704,11 +38,251 @@
       "offset": 62197072,
       "address": 140700626062672
     },
-    "LuaL_where": {
-      "name": "LuaL_where",
-      "pattern": "",
-      "offset": 62142992,
-      "address": 140700626008592
+    "VariantCastInt64": {
+      "name": "VariantCastInt64",
+      "pattern": "D0 00 00 00 E8 ?? 18 ?? ?? 84 C0 75 ?? 48 8B D3",
+      "offset": 27947184,
+      "address": 140700591812784
+    },
+    "GetCurrentThreadID": {
+      "name": "GetCurrentThreadID",
+      "pattern": "89 4C 24 30 48 8B 8C 24 98 00 00 00 48 89 4C 24",
+      "offset": 70425616,
+      "address": 140700634291216
+    },
+    "LuaL_freebuffer": {
+      "name": "LuaL_freebuffer",
+      "pattern": "41 8B EE 8D 34 55 FF FF FF FF 48 39 B8 88 13 00",
+      "offset": 62408736,
+      "address": 140700626274336
+    },
+    "LuaC_fullgc": {
+      "name": "LuaC_fullgc",
+      "pattern": "C9 F3 0F 59 C0 F3 0F 58 F8 F3 42 0F 10 44 11 08",
+      "offset": 62339744,
+      "address": 140700626205344
+    },
+    "LuaD_precall": {
+      "name": "LuaD_precall",
+      "pattern": "90 48 83 C4 48 C3 E8 ?? 48 ?? ?? CC CC CC CC CC",
+      "offset": 62197072,
+      "address": 140700626062672
+    },
+    "LockViolationInstanceCrash": {
+      "name": "LockViolationInstanceCrash",
+      "pattern": "02 42 05 07 38 9A 44 64 38 51 15 44 80 38 D6 4A",
+      "offset": 108236344,
+      "address": 140700672101944
+    },
+    "ProcessEvent": {
+      "name": "ProcessEvent",
+      "pattern": "48 03 DA 48 3B D3 0F ?? F5 00 00 00 4C 8B DF 90",
+      "offset": 62679392,
+      "address": 140700626544992
+    },
+    "KeyID": {
+      "name": "KeyID",
+      "pattern": "F3 41 0F 10 C5 0F C6 C0 C6 F3 41 0F 10 C6 0F C6",
+      "offset": 71416400,
+      "address": 140700635282000
+    },
+    "AssignedNode": {
+      "name": "AssignedNode",
+      "pattern": "89 6C 2B 28 4C 89 6C 2B 10 48 83 7C ?? 18 00 76",
+      "offset": 24351586,
+      "address": 140700588217186
+    },
+    "TaskDelay": {
+      "name": "TaskDelay",
+      "pattern": "57 C0 F3 0F 7F ?? 24 30 48 8B D6 49 8B 0E E8 ??",
+      "offset": 23276704,
+      "address": 140700587142304
+    },
+    "SetProtoCapabilities": {
+      "name": "SetProtoCapabilities",
+      "pattern": "C8 F2 0F 10 45 A0 F2 0F 11 4D 98 F2 0F 10 4D B8",
+      "offset": 57808320,
+      "address": 140700621673920
+    },
+    "LuaL_checkany": {
+      "name": "LuaL_checkany",
+      "pattern": "F3 0F 58 D5 F3 0F 59 F3 F3 0F 58 D6 44 0F 2F CA",
+      "offset": 62353856,
+      "address": 140700626219456
+    },
+    "LuaL_pushresult": {
+      "name": "LuaL_pushresult",
+      "pattern": "ED BE 01 00 00 00 48 89 44 24 38 89 74 ?? 24 8B",
+      "offset": 62166576,
+      "address": 140700626032176
+    },
+    "VariantCastFloat": {
+      "name": "VariantCastFloat",
+      "pattern": "10 48 39 47 08 48 8B D5 48 8B CE 4C 0F 44 C0 49",
+      "offset": 27948528,
+      "address": 140700591814128
+    },
+    "LuaH_Dummynode": {
+      "name": "LuaH_Dummynode",
+      "pattern": "65 66 74 ?? 68 30 2E 38 2C 64 70 ?? ?? 67 68 74",
+      "offset": 96683336,
+      "address": 140700660548936
+    },
+    "SetStringEngine": {
+      "name": "SetStringEngine",
+      "pattern": "CC FB FF FF F6 C3 01 74 ?? 48 8B CF E8 ?? C0 ??",
+      "offset": 7560320,
+      "address": 140700571425920
+    },
+    "Lua_newstate": {
+      "name": "Lua_newstate",
+      "pattern": "D1 74 ?? 4C 8B 49 08 49 89 11 4C 8B 42 08 4D 89",
+      "offset": 62193248,
+      "address": 140700626058848
+    },
+    "SetChannelState": {
+      "name": "SetChannelState",
+      "pattern": "89 23 C7 46 20 02 00 00 00 C7 86 24 40 00 00 04",
+      "offset": 64085296,
+      "address": 140700627950896
+    },
+    "Print": {
+      "name": "Print",
+      "pattern": "38 49 8B D7 48 8D 4D 00 E8 ?? BC ?? ?? 48 8D 0D",
+      "offset": 28183168,
+      "address": 140700592048768
+    },
+    "GetLuaState": {
+      "name": "GetLuaState",
+      "pattern": "8B 4D EF EB ?? 48 8D 4D F7 E8 ?? B6 ?? ?? 48 8B",
+      "offset": 17420224,
+      "address": 140700581285824
+    },
+    "ArgsElement": {
+      "name": "ArgsElement",
+      "pattern": "0F 0F ?? 69 FF FF FF 4C 8B 54 24 28 4C 8B 5C 24",
+      "offset": 68436768,
+      "address": 140700632302368
+    },
+    "LuaO_NilObject": {
+      "name": "LuaO_NilObject",
+      "pattern": "67 F7 7F ?? 00 90 E2 68 67 F7 7F ?? 00 B0 E2 68",
+      "offset": 86481427,
+      "address": 140700650347027
+    },
+    "Register": {
+      "name": "Register",
+      "pattern": "44 24 50 0F 10 44 24 50 48 89 44 24 38 48 8D 4C",
+      "offset": 40014624,
+      "address": 140700603880224
+    },
+    "KTable": {
+      "name": "KTable",
+      "pattern": "55 4D DC EE FF 00 00 00 0B D8 DB EE FF 00 00 00",
+      "offset": 117858176,
+      "address": 140700681723776
+    },
+    "GetModuleFromVMStateMap": {
+      "name": "GetModuleFromVMStateMap",
+      "pattern": "09 48 8B 51 08 48 89 41 08 48 8B 71 ?? 4C 89 41",
+      "offset": 20930898,
+      "address": 140700584796498
+    },
+    "GetEngineLoadStatus": {
+      "name": "GetEngineLoadStatus",
+      "pattern": "60 48 83 C3 B0 48 8D 05 ?? ?? ?? ?? 48 89 47 40",
+      "offset": 7561008,
+      "address": 140700571426608
+    },
+    "Luau_Execute": {
+      "name": "Luau_Execute",
+      "pattern": "89 7C ?? 20 41 56 48 83 EC 50 48 8B 05 ?? ?? ??",
+      "offset": 62227120,
+      "address": 140700626092720
+    },
+    "SetInstanceObject": {
+      "name": "SetInstanceObject",
+      "pattern": "0F 59 D0 F3 44 0F 5C D1 F3 0F 58 F7 F3 44 0F 11",
+      "offset": 36076496,
+      "address": 140700599942096
+    },
+    "FormatEngineText": {
+      "name": "FormatEngineText",
+      "pattern": "C7 81 78 ?? 00 00 FF FF FF 7F ?? 81 7C ?? 00 00",
+      "offset": 42252800,
+      "address": 140700606118400
+    },
+    "LuaV_Execute": {
+      "name": "LuaV_Execute",
+      "pattern": "5E C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC",
+      "offset": 62227296,
+      "address": 140700626092896
+    },
+    "ValidateBytecode": {
+      "name": "ValidateBytecode",
+      "pattern": "8D 54 24 30 48 8B CD E8 ?? 08 ?? ?? 0F 10 00 0F",
+      "offset": 18342736,
+      "address": 140700582208336
+    },
+    "HandlerRoutine": {
+      "name": "HandlerRoutine",
+      "pattern": "48 4C 89 7B ?? E8 ?? D6 ?? ?? 48 8B F0 48 85 C0",
+      "offset": 81996336,
+      "address": 140700645861936
+    },
+    "GetValues": {
+      "name": "GetValues",
+      "pattern": "48 83 C4 40 5B C3 E8 ?? 42 ?? ?? CC 4C 8D 05 ??",
+      "offset": 17503008,
+      "address": 140700581368608
+    },
+    "LuaD_throw": {
+      "name": "LuaD_throw",
+      "pattern": "9C D8 58 00 48 83 C4 38 C3 CC CC CC CC CC CC CC",
+      "offset": 62197120,
+      "address": 140700626062720
+    },
+    "InsertNode": {
+      "name": "InsertNode",
+      "pattern": "C9 41 0F BA E0 0C 73 ?? 0F B6 42 25 0F B7 89 80",
+      "offset": 62678656,
+      "address": 140700626544256
+    },
+    "OpCodeLookUpTable": {
+      "name": "OpCodeLookUpTable",
+      "pattern": "2C 64 70 ?? 65 66 74 ?? 68 30 2E 38 2C 64 70 ??",
+      "offset": 96678160,
+      "address": 140700660543760
+    },
+    "Lua_setmetatable": {
+      "name": "Lua_setmetatable",
+      "pattern": "28 DA F3 0F 59 D8 45 0F 28 C1 41 0F 28 E1 0F 28",
+      "offset": 62273305,
+      "address": 140700626138905
+    },
+    "atomic": {
+      "name": "atomic",
+      "pattern": "0F 46 C1 48 8B 38 48 8D 0C 7F ?? C1 E1 02 E8 ??",
+      "offset": 62337776,
+      "address": 140700626203376
+    },
+    "FireTouchInterest": {
+      "name": "FireTouchInterest",
+      "pattern": "44 24 20 48 3B 15 D6 25 6C 05 74 ?? E8 ?? BA ??",
+      "offset": 38660400,
+      "address": 140700602526000
+    },
+    "TaskCancel": {
+      "name": "TaskCancel",
+      "pattern": "06 41 81 F9 00 04 00 00 72 ?? 80 3D 8C 7E ?? 05",
+      "offset": 23278368,
+      "address": 140700587143968
+    },
+    "SetEventEngine": {
+      "name": "SetEventEngine",
+      "pattern": "00 00 00 4C 89 64 24 70 ?? C7 06 00 00 00 00 48",
+      "offset": 7558080,
+      "address": 140700571423680
     }
   }
 }
