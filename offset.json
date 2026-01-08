@@ -1,0 +1,282 @@
+{
+  "module_base": 140700563865600,
+  "module_size": 140288000,
+  "patterns": {
+    "TaskCancel": {
+      "name": "TaskCancel",
+      "pattern": "06 41 81 F9 00 04 00 00 72 2A 80 3D 8C 7E F2 05",
+      "offset": 23278368,
+      "address": null
+    },
+    "Luau_Execute": {
+      "name": "Luau_Execute",
+      "pattern": "89 7C 24 20 41 56 48 83 EC 50 48 8B 05 D7 25 FA",
+      "offset": 62227120,
+      "address": null
+    },
+    "GetChannelState": {
+      "name": "GetChannelState",
+      "pattern": "72 1F 48 8B 84 24 80 00 00 00 4C 8B D8 49 C1 EB",
+      "offset": 64081616,
+      "address": null
+    },
+    "LuaL_pushresult": {
+      "name": "LuaL_pushresult",
+      "pattern": "ED BE 01 00 00 00 48 89 44 24 38 89 74 24 24 8B",
+      "offset": 62166576,
+      "address": null
+    },
+    "GetCurrentThreadID": {
+      "name": "GetCurrentThreadID",
+      "pattern": "89 4C 24 30 48 8B 8C 24 98 00 00 00 48 89 4C 24",
+      "offset": 70425616,
+      "address": null
+    },
+    "LuaH_Dummynode": {
+      "name": "LuaH_Dummynode",
+      "pattern": "65 66 74 3A 68 30 2E 38 2C 64 70 72 69 67 68 74",
+      "offset": 96683336,
+      "address": null
+    },
+    "Lua_setmetatable": {
+      "name": "Lua_setmetatable",
+      "pattern": "28 DA F3 0F 59 D8 45 0F 28 C1 41 0F 28 E1 0F 28",
+      "offset": 62273305,
+      "address": null
+    },
+    "LuaV_Execute": {
+      "name": "LuaV_Execute",
+      "pattern": "5E C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC",
+      "offset": 62227296,
+      "address": null
+    },
+    "RawTaskScheduler": {
+      "name": "RawTaskScheduler",
+      "pattern": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "offset": 127801448,
+      "address": null
+    },
+    "ValidateBytecode": {
+      "name": "ValidateBytecode",
+      "pattern": "8D 54 24 30 48 8B CD E8 64 08 79 FF 0F 10 00 0F",
+      "offset": 18342736,
+      "address": null
+    },
+    "FakeDataModelPointer": {
+      "name": "FakeDataModelPointer",
+      "pattern": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "offset": 126493896,
+      "address": null
+    },
+    "FireTouchInterest": {
+      "name": "FireTouchInterest",
+      "pattern": "44 24 20 48 3B 15 D6 25 6C 05 74 0F E8 4F BA 67",
+      "offset": 38660400,
+      "address": null
+    },
+    "SetChannelState": {
+      "name": "SetChannelState",
+      "pattern": "89 23 C7 46 20 02 00 00 00 C7 86 24 40 00 00 04",
+      "offset": 64085296,
+      "address": null
+    },
+    "SetInstanceObject": {
+      "name": "SetInstanceObject",
+      "pattern": "0F 59 D0 F3 44 0F 5C D1 F3 0F 58 F7 F3 44 0F 11",
+      "offset": 36076496,
+      "address": null
+    },
+    "GetEventEngine": {
+      "name": "GetEventEngine",
+      "pattern": "48 8D 4B 40 E8 07 74 FA FF 48 8D 4B 28 E8 FE 73",
+      "offset": 7558784,
+      "address": null
+    },
+    "GetValues": {
+      "name": "GetValues",
+      "pattern": "48 83 C4 40 5B C3 E8 65 42 E2 03 CC 4C 8D 05 15",
+      "offset": 17503008,
+      "address": null
+    },
+    "Lua_newstate": {
+      "name": "Lua_newstate",
+      "pattern": "D1 74 21 4C 8B 49 08 49 89 11 4C 8B 42 08 4D 89",
+      "offset": 62193248,
+      "address": null
+    },
+    "LuaD_precall": {
+      "name": "LuaD_precall",
+      "pattern": "90 48 83 C4 48 C3 E8 35 48 38 01 CC CC CC CC CC",
+      "offset": 62197072,
+      "address": null
+    },
+    "GetEngineLoadStatus": {
+      "name": "GetEngineLoadStatus",
+      "pattern": "60 48 83 C3 B0 48 8D 05 94 BC 33 05 48 89 47 40",
+      "offset": 7561008,
+      "address": null
+    },
+    "LuaL_checkany": {
+      "name": "LuaL_checkany",
+      "pattern": "F3 0F 58 D5 F3 0F 59 F3 F3 0F 58 D6 44 0F 2F CA",
+      "offset": 62353856,
+      "address": null
+    },
+    "GetLuaState": {
+      "name": "GetLuaState",
+      "pattern": "8B 4D EF EB 1E 48 8D 4D F7 E8 82 B6 01 00 48 8B",
+      "offset": 17420224,
+      "address": null
+    },
+    "OpCodeLookUpTable": {
+      "name": "OpCodeLookUpTable",
+      "pattern": "2C 64 70 6C 65 66 74 3A 68 30 2E 38 2C 64 70 72",
+      "offset": 96678160,
+      "address": null
+    },
+    "atomic": {
+      "name": "atomic",
+      "pattern": "0F 46 C1 48 8B 38 48 8D 0C 7F 48 C1 E1 02 E8 BD",
+      "offset": 62337776,
+      "address": null
+    },
+    "Register": {
+      "name": "Register",
+      "pattern": "44 24 50 0F 10 44 24 50 48 89 44 24 38 48 8D 4C",
+      "offset": 40014624,
+      "address": null
+    },
+    "TaskDelay": {
+      "name": "TaskDelay",
+      "pattern": "57 C0 F3 0F 7F 44 24 30 48 8B D6 49 8B 0E E8 AD",
+      "offset": 23276704,
+      "address": null
+    },
+    "LuaL_freebuffer": {
+      "name": "LuaL_freebuffer",
+      "pattern": "41 8B EE 8D 34 55 FF FF FF FF 48 39 B8 88 13 00",
+      "offset": 62408736,
+      "address": null
+    },
+    "LuaC_fullgc": {
+      "name": "LuaC_fullgc",
+      "pattern": "C9 F3 0F 59 C0 F3 0F 58 F8 F3 42 0F 10 44 11 08",
+      "offset": 62339744,
+      "address": null
+    },
+    "SetEventEngine": {
+      "name": "SetEventEngine",
+      "pattern": "00 00 00 4C 89 64 24 70 49 C7 06 00 00 00 00 48",
+      "offset": 7558080,
+      "address": null
+    },
+    "TaskDefer": {
+      "name": "TaskDefer",
+      "pattern": "46 4B 06 41 81 F9 00 04 00 00 72 2A 80 3D 9A 8D",
+      "offset": 23274512,
+      "address": null
+    },
+    "SetStringEngine": {
+      "name": "SetStringEngine",
+      "pattern": "CC FB FF FF F6 C3 01 74 09 48 8B CF E8 BF C0 97",
+      "offset": 7560320,
+      "address": null
+    },
+    "SetSingletonObject": {
+      "name": "SetSingletonObject",
+      "pattern": "66 C7 45 A8 00 00 C6 45 AA 00 4C 8B C7 48 8B D3",
+      "offset": 42172818,
+      "address": null
+    },
+    "LuaO_NilObject": {
+      "name": "LuaO_NilObject",
+      "pattern": "67 F7 7F 00 00 90 E2 68 67 F7 7F 00 00 B0 E2 68",
+      "offset": 86481427,
+      "address": null
+    },
+    "ArgsElement": {
+      "name": "ArgsElement",
+      "pattern": "0F 0F 85 69 FF FF FF 4C 8B 54 24 28 4C 8B 5C 24",
+      "offset": 68436768,
+      "address": null
+    },
+    "LuaD_throw": {
+      "name": "LuaD_throw",
+      "pattern": "9C D8 58 00 48 83 C4 38 C3 CC CC CC CC CC CC CC",
+      "offset": 62197120,
+      "address": null
+    },
+    "GetModuleFromVMStateMap": {
+      "name": "GetModuleFromVMStateMap",
+      "pattern": "09 48 8B 51 08 48 89 41 08 48 8B 71 10 4C 89 41",
+      "offset": 20930898,
+      "address": null
+    },
+    "LuaD_rawrunprotected": {
+      "name": "LuaD_rawrunprotected",
+      "pattern": "90 48 83 C4 48 C3 E8 35 48 38 01 CC CC CC CC CC",
+      "offset": 62197072,
+      "address": null
+    },
+    "VariantCastInt64": {
+      "name": "VariantCastInt64",
+      "pattern": "D0 00 00 00 E8 47 18 5B 02 84 C0 75 36 48 8B D3",
+      "offset": 27947184,
+      "address": null
+    },
+    "VariantCastFloat": {
+      "name": "VariantCastFloat",
+      "pattern": "10 48 39 47 08 48 8B D5 48 8B CE 4C 0F 44 C0 49",
+      "offset": 27948528,
+      "address": null
+    },
+    "LockViolationInstanceCrash": {
+      "name": "LockViolationInstanceCrash",
+      "pattern": "02 42 05 07 38 9A 44 64 38 51 15 44 80 38 D6 4A",
+      "offset": 108236344,
+      "address": null
+    },
+    "Print": {
+      "name": "Print",
+      "pattern": "38 49 8B D7 48 8D 4D 00 E8 83 BC BF FE 48 8D 0D",
+      "offset": 28183168,
+      "address": null
+    },
+    "Node": {
+      "name": "Node",
+      "pattern": "2C 64 70 64 6F 77 6E 3A 68 30 2E 34 2C 64 70 6C",
+      "offset": 96683320,
+      "address": null
+    },
+    "KTable": {
+      "name": "KTable",
+      "pattern": "55 4D DC EE FF 00 00 00 0B D8 DB EE FF 00 00 00",
+      "offset": 117858176,
+      "address": null
+    },
+    "SetProtoCapabilities": {
+      "name": "SetProtoCapabilities",
+      "pattern": "C8 F2 0F 10 45 A0 F2 0F 11 4D 98 F2 0F 10 4D B8",
+      "offset": 57808320,
+      "address": null
+    },
+    "AssignedNode": {
+      "name": "AssignedNode",
+      "pattern": "89 6C 2B 28 4C 89 6C 2B 10 48 83 7C 2B 18 00 76",
+      "offset": 24351586,
+      "address": null
+    },
+    "FormatEngineText": {
+      "name": "FormatEngineText",
+      "pattern": "C7 81 78 0B 00 00 FF FF FF 7F C7 81 7C 0B 00 00",
+      "offset": 42252800,
+      "address": null
+    },
+    "KeyID": {
+      "name": "KeyID",
+      "pattern": "F3 41 0F 10 C5 0F C6 C0 C6 F3 41 0F 10 C6 0F C6",
+      "offset": 71416400,
+      "address": null
+    }
+  }
+}
